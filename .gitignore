@@ -1,0 +1,63 @@
+# =========================
+# 1. Python & Compiled Files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# 2. Virtual Environments
+# =========================
+# Your active conda environment (if stored locally in the repo)
+myenv/
+venv/
+env/
+.env
+
+# =========================
+# 3. Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 4. AI / Machine Learning 
+# =========================
+# Ignore datasets (uncomment if you want to ignore all data files)
+# *.csv
+# *.json
+# *.dat
+# datasets/
+# data/
+
+# Ignore saved models and weights (these get huge!)
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.safetensors
+models/
+saved_models/
+
+# Ignore logs (e.g., TensorBoard)
+logs/
+tensorboard_logs/
+
+# =========================
+# 5. OS & System Files
+# =========================
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac (Good practice to include in case others clone your repo)
+.DS_Store
+
+# =========================
+# 6. IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.swp
